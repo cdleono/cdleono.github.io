@@ -97,54 +97,60 @@
 			</tr>
 			</thead>
 			<tr>
-				<td>HTML</td>
-				<td> <b>< htlm >< /htlm ></b> 
-					<p>Indica el comienzo y el final de un documento HTML.</p></td>
+				<td>Colors</td>
+				<td> <b>Color: red o Color: #FFFFFF</b> 
+					<p>los colores pueden definirse con su nombre en inglés o con la notación RGB en hexadecimal.</p></td>
 			</tr>
 			<tr>
-				<td>Head</td>
-				<td> <b>< head >< /head ></b> 
-					<p>Indica que empieza la cabecera de la p&aacutegina. En ella se suele poner el t&iacutetulo (< title >) de la web, una descripci&oacuten y otras informaciones relacionadas con el contenido de la p&aacutegina.</p></td>
+				<td>Backgrounds</td>
+				<td> <b> "Background-color, background-image, background-repeat"</b> 
+					<p>Background-color: Nos ayuda a determinar el color de fondo de un determinado estilo.</p>
+					<p>Background-image: Gracias a este estilo, en lugar de un color de fondo como hacíamos anteriormente, podemos aplicar una imagen de fondo.</p>
+					<p>Background-repeat: Este atributo se usa para especificarle a la imagen que hemos usado de fondo si queremos o no que se repita y, en caso afirmativo, indicarle de qué modo queremos que se repita.</p>
+				</td>
 			</tr>
 			<tr>
-				<td>Body</td>
-				<td> <b>< body >< /body ></b> 
-					<p>Es el cuerpo de la p&aacutegina, donde va lo que se ve en el navegador al cargar una web. En el body van los textos, las im&aacutegenes y todos los contenidos de la web.</p></td>
+				<td>Borders</td>
+				<td> <b>Border-left-width, Border-left-style, Border-left-color</b> 
+					<p>Se pueden definir los bordes de un bloque, que por defecto son invisibles. Por tanto, lo primero que hay que definir es el estilo del borde. Además del estilo, se puede definir su color y grosor, y todo ello puede hacerse globalmente, sobre los cuatro lados del bloque, o cada uno por separado.</p></td>
 			</tr>
 			<tr>
-				<td>H1, H2</td>
-				<td> <b>< h1 >< /h1 ></b> 
-					<p>Son los t&iacutetulos o encabezados. Se utilizan para establecer determinados textos de la p&aacutegina como titulares, suelen tener un tamaño de fuente mayor para diferenciarlos del resto del texto. Son importantes en el posicionamiento en buscadores.</p></td>
+				<td>Margins</td>
+				<td> <b> Margin-top, margin-right, margin-bottom, margin-left</b> 
+					<p>CSS define cuatro propiedades para controlar cada uno de los márgenes horizontales y verticales de un elemento: valores, se aplica a, valor inicial y descripción.</p></td>
 			</tr>
 			<tr>
-				<td>Table</td>
+				<td>Text</td>
+				<td> <b>Text-align=""</b> 
+					<p>CSS define numerosas propiedades que determinan la apariencia del texto en su conjunto. Estas propiedades adicionales permiten controlar al alineación del texto, el interlineado, la separación entre palabras, etc.</p></td>
+			</tr>
+			<tr>
+				<td>Fonts</td>
+				<td> <b>Font-family, font-size, font-style</b> 
+					<p>Font-family: Se puede seleccionar cualquier tipografía simplemente escribiendo su nombre.</p>
+					<p>Font-size: Permite especificar el tamaño que tendrá la tipografía que utizaremos.</p>
+					<p>Font-style: Con la propiedad font-style podemos aplicarle estos estilos. En la mayoría de los casos, se aprecia el mismo efecto con los valores italic y oblique, no obstante, italic muestra la versión cursiva de la fuente, específicamente creada por el diseñador, mientras que oblique es una representación forzosa artificial de una tipografía cursiva.</p>
+				</td>
+			</tr>
+			<tr>
+				<td>Height</td>
+				<td> <b>Height: auto o Height: 50px</b> 
+					<p>Especifica la altura del area de contenido de un elemento. El área de contenido está dentro del padding, borde, y margen del elemento.</p></td>
+			</tr>
+			<tr>
+				<td>Width</td>
+				<td> <b>Width: auto o Width: 100px</b> 
+					<p>Especifica la anchura del area de contenido de un elemento. El área de contenido está dentro del padding, borde, y margen del elemento.</p></td>
+			</tr>
+			<tr>
+				<td>List</td>
+				<td> <b>< ul >< li >< /li >< /ul ></b> 
+					<p>Se utiliza para definir varias propiedades para controlar el tipo de viñeta que muestran las listas, además de poder controlar la posición de la propia viñeta. La propiedad básica es la que controla el tipo de viñeta que se muestra y que se denomina list-style-type.</p></td>
+			</tr>
+			<tr>
+				<td>Tables</td>
 				<td> <b>< table >< /table ></b> 
-					<p>Es para crear tablas, y dentro de esta tenemos filas < tr > y columnas < td >.</p></td>
-			</tr>
-			<tr>
-				<td>Salto de línea</td>
-				<td> <b>< br >< /br ></b> 
-					<p>Sirve para insertar una l&iacutenea e blanco.</p></td>
-			</tr>
-			<tr>
-				<td>Listas</td>
-				<td> <b>< ul >< /ul ></b> 
-					<p>los textos dentro de esta etiqueta se estructuran en listas. Mediante el uso de < li > definimos cada gui&oacuten dentro de la lista, y usando < ol > en lugar de < ul > tendremos listas ordenadas..</p></td>
-			</tr>
-			<tr>
-				<td>Color de letra</td>
-				<td> <b>< font color:"blue" >< /font ></b> 
-					<p>Se escribe < font color=””> junto con el color que se elija, para seleccionar el color de una parrafo o texto. También se puede utilizar el siguiente formato: < font face=”Arial” size=”3″ color=”navy”> Texto escrito en arial, tamaño 3 y color azul marino. < /font >.</p></td>
-			</tr>
-			<tr>
-				<td>Im&aacutegen</td>
-				<td> <b>< img src="" width="" height="" ></b> 
-					<p>Se utiliza para insertar im&aacutegenes, se debe ingresar la url, el ancho, alto e incluso la descripci&oacuten.</p></td>
-			</tr>
-			<tr>
-				<td>Enlace o link</td>
-				<td> <b>< a href="" >Nombre del enlace< /a ></b> 
-					<p>Para tener link en las p&aacuteginas web se inserta esta etiqueta donde en el href se debe pegar la direcci&oacuten elegida y el nombre del enlace por el deseado.</p></td>
+					<p>Con esta etiqueta se pueden crear tablas para la página, dentro de ella se pueden aplicar otros estilos CSS como la anchura de la tabla (width), margen(margin), color de fondo(background-color), bordes(border), el texto alineado(text-align), etc.</p></td>
 			</tr>
 		
 		</table>
